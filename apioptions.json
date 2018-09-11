@@ -1,0 +1,17 @@
+{
+  "Metadata name": {
+    "dataType": "string",
+    "value": "metadata",
+    "defaultValue": "@metadata"
+  },
+  "Permit Authorization parameter in URL": {
+    "dataType": "boolean",
+    "value": true,
+    "defaultValue": false
+  },
+  "Tech docs URL": {
+    "dataType": "string",
+    "value": "https://docops.ca.com/ca-live-api-creator/4-1/en/tutorial/northwind",
+    "defaultValue": null
+  }
+}

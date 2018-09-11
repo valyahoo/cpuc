@@ -1,0 +1,19 @@
+{
+  "name": "event_insertRowToHistory",
+  "entity": "SERVICE_OUTAGE_RPT_2",
+  "isActive": true,
+  "ruleType": "event",
+  "asynchronous": false,
+  "appliesTo": {
+    "insert": true,
+    "update": true,
+    "delete": true
+  },
+  "codeType": "JavaScript",
+  "isAutoTitle": false,
+  "title": "Conditionally Insert Row To History",
+  "comments": null,
+  "topics": [
+    "Data Logic"
+  ]
+}

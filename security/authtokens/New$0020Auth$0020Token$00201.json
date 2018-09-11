@@ -1,0 +1,13 @@
+{
+  "name": "New Auth Token 1",
+  "authToken": "9RrvC0pqAQhNJU058R5k",
+  "description": null,
+  "userIdentifier": null,
+  "isActive": true,
+  "expiration": null,
+  "logging": "*=FINE",
+  "roles": [
+  ],
+  "globals": {
+  }
+}

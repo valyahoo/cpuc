@@ -1,0 +1,16 @@
+{
+  "name": "validation_jpvbr",
+  "entity": "SERVICE_OUTAGE_RPT_2",
+  "isActive": true,
+  "ruleType": "validation",
+  "codeType": "JavaScript",
+  "errorMessage": "INVALID COMPANY ID = {COMPANY_ID}. use company ID associated to your auth token, or leave field as null.",
+  "problemAttributes": [
+  ],
+  "isAutoTitle": false,
+  "title": "Validation: return row.COMPANY_ID === req.apiKey.getDataObjects().get(\"ID\");",
+  "comments": null,
+  "topics": [
+    "Data Validation"
+  ]
+}

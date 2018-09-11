@@ -1,0 +1,15 @@
+{
+  "name": "demo",
+  "fullname": "Demo Account with full access",
+  "email": null,
+  "isActive": true,
+  "comments": null,
+  "keyLifetimeSeconds": null,
+  "passwordHash": "2Hs5UBtixjw7VgmZ6CcDHqOo1OT3ZcR8O/Bv49YimAixK1S3Lwdaf0y34I9V8eAdlAsLhpbBe7X3E0mwRuWn2A==",
+  "passwordSalt": "RH9bnqn5L1XREjEssL9poBzCP7dYo1gg9sAqXQ16",
+  "roles": [
+    "Full access"
+  ],
+  "globals": {
+  }
+}

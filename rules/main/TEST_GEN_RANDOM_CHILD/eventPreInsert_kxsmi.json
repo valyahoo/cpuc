@@ -1,0 +1,13 @@
+{
+  "name": "eventPreInsert_kxsmi",
+  "entity": "TEST_GEN_RANDOM_CHILD",
+  "isActive": true,
+  "ruleType": "preinsertEvent",
+  "codeType": "JavaScript",
+  "isAutoTitle": false,
+  "title": "Event (Pre-Insert): GETPK",
+  "comments": null,
+  "topics": [
+    "getPK"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "tsqx2 - system",
+  "prefix": "main",
+  "title": null,
+  "databaseType": "ORACLE",
+  "comments": "Created using Connect Wizard",
+  "isActive": true,
+  "isLogErrors": false,
+  "isSchemaEditable": false,
+  "isSupportBoolean": false,
+  "isReadOnly": false,
+  "useJNDIDataSource": false,
+  "url": "jdbc:oracle:thin:@192.168.97.1:1521/ORCLPDB1",
+  "catalog": null,
+  "schema": "tsqx2",
+  "username": "tsqx2",
+  "encryptedPassword": null,
+  "encryptedPasswordSalt": null,
+  "maximumConnections": 20,
+  "tableExcludes": "BIN.*",
+  "tableIncludes": null,
+  "procedureExcludes": null,
+  "procedureIncludes": null,
+  "nonPersistentAttributes": {
+  },
+  "tableInfos": {
+  },
+  "viewInfos": {
+  },
+  "procedureInfos": {
+  }
+}

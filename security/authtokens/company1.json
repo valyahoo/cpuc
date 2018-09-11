@@ -1,0 +1,15 @@
+{
+  "name": "company1",
+  "authToken": "4584f6cf-99b0-46da-83dd-0dab3e775718",
+  "description": null,
+  "userIdentifier": null,
+  "isActive": true,
+  "expiration": null,
+  "logging": "*=FINE",
+  "roles": [
+    "companyView"
+  ],
+  "globals": {
+    "ID": "1"
+  }
+}

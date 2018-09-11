@@ -1,0 +1,72 @@
+{
+  "name": "companyView",
+  "description": null,
+  "defaultTablePermission": "RIU",
+  "defaultViewPermission": "N",
+  "defaultFunctionPermission": "X",
+  "globals": {
+  },
+  "apiVisibility": {
+    "table": {
+      "isRestricted": true,
+      "restrictedTo": [
+        "main:TEST_GEN_RANDOM",
+        "main:TEST_GEN_RANDOM_CHILD"
+      ]
+    },
+    "view": {
+      "isRestricted": true,
+      "restrictedTo": [
+      ]
+    },
+    "resource": {
+      "isRestricted": false,
+      "restrictedTo": null
+    },
+    "procedure": {
+      "isRestricted": false,
+      "restrictedTo": null
+    },
+    "metatable": {
+      "isRestricted": true,
+      "restrictedTo": [
+      ]
+    },
+    "function": {
+      "isRestricted": false,
+      "restrictedTo": null
+    }
+  },
+  "entityPermission": {
+    "necessarychildZIP": {
+      "entity": "main:ZIP_CODE_DICT",
+      "description": null,
+      "accessLevels": [
+        "READ",
+        "INSERT",
+        "UPDATE"
+      ],
+      "rowFilter": null,
+      "columnFilter": {
+        "isRestricted": false,
+        "restrictedTo": null
+      }
+    },
+    "view_company_outages": {
+      "entity": "main:SERVICE_OUTAGE_RPT_2",
+      "description": null,
+      "accessLevels": [
+        "READ",
+        "INSERT",
+        "UPDATE"
+      ],
+      "rowFilter": "\"COMPANY_ID\" = @{ID}",
+      "columnFilter": {
+        "isRestricted": false,
+        "restrictedTo": null
+      }
+    }
+  },
+  "functionPermission": {
+  }
+}

@@ -1,0 +1,1312 @@
+[
+  {
+    "parentEntity": "main:AQ$_INTERNET_AGENTS",
+    "childEntity": "main:AQ$_INTERNET_AGENT_PRIVS",
+    "roleToParent": "AQ$$_INTERNET_AGENTS",
+    "roleToChild": "AQ$$_INTERNET_AGENT_PRIVS_List",
+    "deleteRule": "Cascade",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "AGENT_NAME"
+    ],
+    "childColumns": [
+      "AGENT_NAME"
+    ]
+  },
+  {
+    "parentEntity": "main:DEF$_DESTINATION",
+    "childEntity": "main:DEF$_CALLDEST",
+    "roleToParent": "DEF$$_DESTINATION",
+    "roleToChild": "DEF$$_CALLDEST_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "CATCHUP",
+      "DBLINK"
+    ],
+    "childColumns": [
+      "CATCHUP",
+      "DBLINK"
+    ]
+  },
+  {
+    "parentEntity": "main:DEF$_DESTINATION",
+    "childEntity": "main:REPCAT$_REPSCHEMA",
+    "roleToParent": "DEF$$_DESTINATION",
+    "roleToChild": "REPCAT$$_REPSCHEMA_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "CATCHUP",
+      "DBLINK"
+    ],
+    "childColumns": [
+      "EXTENSION_ID",
+      "DBLINK"
+    ]
+  },
+  {
+    "parentEntity": "main:E911_LOCATION_DICT",
+    "childEntity": "main:SERVICE_OUTAGE_RPT_2",
+    "roleToParent": "E911_LOCATION_DICT",
+    "roleToChild": "SERVICE_OUTAGE_RPT_2_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "E911_LOCATION_KEY"
+    ],
+    "childColumns": [
+      "E911_LOCATION_KEY"
+    ]
+  },
+  {
+    "parentEntity": "main:E911_LOCATION_DICT",
+    "childEntity": "main:SERVICE_OUTAGE_RPT_HIST",
+    "roleToParent": "E911_LOCATION_DICT",
+    "roleToChild": "SERVICE_OUTAGE_RPT_HIST_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "E911_LOCATION_KEY"
+    ],
+    "childColumns": [
+      "E911_LOCATION_KEY"
+    ]
+  },
+  {
+    "parentEntity": "main:E911_LOCATION_DICT",
+    "childEntity": "main:SERVICE_OUTAGE_RPT_HIST_2",
+    "roleToParent": "E911_LOCATION_DICT",
+    "roleToChild": "SERVICE_OUTAGE_RPT_HIST_2_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "E911_LOCATION_KEY"
+    ],
+    "childColumns": [
+      "E911_LOCATION_KEY"
+    ]
+  },
+  {
+    "parentEntity": "main:MAIN_OUTAGE_CAUSE_DICT",
+    "childEntity": "main:SERVICE_OUTAGE_RPT_2",
+    "roleToParent": "MAIN_OUTAGE_CAUSE_DICT",
+    "roleToChild": "SERVICE_OUTAGE_RPT_2_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "MAIN_OUTAGE_CAUSE_KEY"
+    ],
+    "childColumns": [
+      "DIRECT_CAUSE_KEY"
+    ]
+  },
+  {
+    "parentEntity": "main:MAIN_OUTAGE_CAUSE_DICT",
+    "childEntity": "main:SERVICE_OUTAGE_RPT_2",
+    "roleToParent": "MAIN_OUTAGE_CAUSE_DICT_via_ROOT_CAUSE_KEY",
+    "roleToChild": "SERVICE_OUTAGE_RPT_2_List_via_ROOT_CAUSE_KEY",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "MAIN_OUTAGE_CAUSE_KEY"
+    ],
+    "childColumns": [
+      "ROOT_CAUSE_KEY"
+    ]
+  },
+  {
+    "parentEntity": "main:MAIN_OUTAGE_CAUSE_DICT",
+    "childEntity": "main:SERVICE_OUTAGE_RPT_HIST",
+    "roleToParent": "MAIN_OUTAGE_CAUSE_DICT",
+    "roleToChild": "SERVICE_OUTAGE_RPT_HIST_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "MAIN_OUTAGE_CAUSE_KEY"
+    ],
+    "childColumns": [
+      "MAIN_OUTAGE_CAUSE_KEY"
+    ]
+  },
+  {
+    "parentEntity": "main:MAIN_OUTAGE_CAUSE_DICT",
+    "childEntity": "main:SERVICE_OUTAGE_RPT_HIST_2",
+    "roleToParent": "MAIN_OUTAGE_CAUSE_DICT",
+    "roleToChild": "SERVICE_OUTAGE_RPT_HIST_2_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "MAIN_OUTAGE_CAUSE_KEY"
+    ],
+    "childColumns": [
+      "DIRECT_CAUSE_KEY"
+    ]
+  },
+  {
+    "parentEntity": "main:MAIN_OUTAGE_CAUSE_DICT",
+    "childEntity": "main:SERVICE_OUTAGE_RPT_HIST_2",
+    "roleToParent": "MAIN_OUTAGE_CAUSE_DICT_via_ROOT_CAUSE_KEY",
+    "roleToChild": "SERVICE_OUTAGE_RPT_HIST_2_List_via_ROOT_CAUSE_KEY",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "MAIN_OUTAGE_CAUSE_KEY"
+    ],
+    "childColumns": [
+      "ROOT_CAUSE_KEY"
+    ]
+  },
+  {
+    "parentEntity": "main:MAIN_OUTAGE_CAUSE_DICT",
+    "childEntity": "main:SUB_OUTAGE_CAUSE_DICT",
+    "roleToParent": "MAIN_OUTAGE_CAUSE_DICT",
+    "roleToChild": "SUB_OUTAGE_CAUSE_DICT_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "MAIN_OUTAGE_CAUSE_KEY"
+    ],
+    "childColumns": [
+      "MAIN_OUTAGE_CAUSE_KEY"
+    ]
+  },
+  {
+    "parentEntity": "main:MVIEW$_ADV_AJG",
+    "childEntity": "main:MVIEW$_ADV_FJG",
+    "roleToParent": "MVIEW$$_ADV_AJG",
+    "roleToChild": "MVIEW$$_ADV_FJG_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "AJGID#"
+    ],
+    "childColumns": [
+      "AJGID#"
+    ]
+  },
+  {
+    "parentEntity": "main:MVIEW$_ADV_FJG",
+    "childEntity": "main:MVIEW$_ADV_GC",
+    "roleToParent": "MVIEW$$_ADV_FJG",
+    "roleToChild": "MVIEW$$_ADV_GC_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "FJGID#"
+    ],
+    "childColumns": [
+      "FJGID#"
+    ]
+  },
+  {
+    "parentEntity": "main:MVIEW$_ADV_LEVEL",
+    "childEntity": "main:MVIEW$_ADV_ROLLUP",
+    "roleToParent": "MVIEW$$_ADV_LEVEL",
+    "roleToChild": "MVIEW$$_ADV_ROLLUP_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "LEVELID#",
+      "RUNID#"
+    ],
+    "childColumns": [
+      "CLEVELID#",
+      "RUNID#"
+    ]
+  },
+  {
+    "parentEntity": "main:MVIEW$_ADV_LEVEL",
+    "childEntity": "main:MVIEW$_ADV_ROLLUP",
+    "roleToParent": "MVIEW$$_ADV_LEVEL_via_PLEVELID$0023_RUNID$0023",
+    "roleToChild": "MVIEW$$_ADV_ROLLUP_List_via_PLEVELID$0023_RUNID$0023",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "LEVELID#",
+      "RUNID#"
+    ],
+    "childColumns": [
+      "PLEVELID#",
+      "RUNID#"
+    ]
+  },
+  {
+    "parentEntity": "main:MVIEW$_ADV_LOG",
+    "childEntity": "main:MVIEW$_ADV_AJG",
+    "roleToParent": "MVIEW$$_ADV_LOG",
+    "roleToChild": "MVIEW$$_ADV_AJG_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "RUNID#"
+    ],
+    "childColumns": [
+      "RUNID#"
+    ]
+  },
+  {
+    "parentEntity": "main:MVIEW$_ADV_LOG",
+    "childEntity": "main:MVIEW$_ADV_CLIQUE",
+    "roleToParent": "MVIEW$$_ADV_LOG",
+    "roleToChild": "MVIEW$$_ADV_CLIQUE_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "RUNID#"
+    ],
+    "childColumns": [
+      "RUNID#"
+    ]
+  },
+  {
+    "parentEntity": "main:MVIEW$_ADV_LOG",
+    "childEntity": "main:MVIEW$_ADV_ELIGIBLE",
+    "roleToParent": "MVIEW$$_ADV_LOG",
+    "roleToChild": "MVIEW$$_ADV_ELIGIBLE_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "RUNID#"
+    ],
+    "childColumns": [
+      "RUNID#"
+    ]
+  },
+  {
+    "parentEntity": "main:MVIEW$_ADV_LOG",
+    "childEntity": "main:MVIEW$_ADV_EXCEPTIONS",
+    "roleToParent": "MVIEW$$_ADV_LOG",
+    "roleToChild": "MVIEW$$_ADV_EXCEPTIONS_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "RUNID#"
+    ],
+    "childColumns": [
+      "RUNID#"
+    ]
+  },
+  {
+    "parentEntity": "main:MVIEW$_ADV_LOG",
+    "childEntity": "main:MVIEW$_ADV_FILTERINSTANCE",
+    "roleToParent": "MVIEW$$_ADV_LOG",
+    "roleToChild": "MVIEW$$_ADV_FILTERINSTANCE_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "RUNID#"
+    ],
+    "childColumns": [
+      "RUNID#"
+    ]
+  },
+  {
+    "parentEntity": "main:MVIEW$_ADV_LOG",
+    "childEntity": "main:MVIEW$_ADV_INFO",
+    "roleToParent": "MVIEW$$_ADV_LOG",
+    "roleToChild": "MVIEW$$_ADV_INFO_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "RUNID#"
+    ],
+    "childColumns": [
+      "RUNID#"
+    ]
+  },
+  {
+    "parentEntity": "main:MVIEW$_ADV_LOG",
+    "childEntity": "main:MVIEW$_ADV_JOURNAL",
+    "roleToParent": "MVIEW$$_ADV_LOG",
+    "roleToChild": "MVIEW$$_ADV_JOURNAL_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "RUNID#"
+    ],
+    "childColumns": [
+      "RUNID#"
+    ]
+  },
+  {
+    "parentEntity": "main:MVIEW$_ADV_LOG",
+    "childEntity": "main:MVIEW$_ADV_LEVEL",
+    "roleToParent": "MVIEW$$_ADV_LOG",
+    "roleToChild": "MVIEW$$_ADV_LEVEL_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "RUNID#"
+    ],
+    "childColumns": [
+      "RUNID#"
+    ]
+  },
+  {
+    "parentEntity": "main:MVIEW$_ADV_LOG",
+    "childEntity": "main:MVIEW$_ADV_OUTPUT",
+    "roleToParent": "MVIEW$$_ADV_LOG",
+    "roleToChild": "MVIEW$$_ADV_OUTPUT_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "RUNID#"
+    ],
+    "childColumns": [
+      "RUNID#"
+    ]
+  },
+  {
+    "parentEntity": "main:MVIEW$_ADV_LOG",
+    "childEntity": "main:MVIEW$_ADV_ROLLUP",
+    "roleToParent": "MVIEW$$_ADV_LOG",
+    "roleToChild": "MVIEW$$_ADV_ROLLUP_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "RUNID#"
+    ],
+    "childColumns": [
+      "RUNID#"
+    ]
+  },
+  {
+    "parentEntity": "main:MVIEW$_ADV_WORKLOAD",
+    "childEntity": "main:MVIEW$_ADV_BASETABLE",
+    "roleToParent": "MVIEW$$_ADV_WORKLOAD",
+    "roleToChild": "MVIEW$$_ADV_BASETABLE_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "QUERYID#"
+    ],
+    "childColumns": [
+      "QUERYID#"
+    ]
+  },
+  {
+    "parentEntity": "main:REASON_REPORTED_DICT",
+    "childEntity": "main:SERVICE_OUTAGE_RPT_2",
+    "roleToParent": "REASON_REPORTED_DICT",
+    "roleToChild": "SERVICE_OUTAGE_RPT_2_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "REASON_REPORTED_KEY"
+    ],
+    "childColumns": [
+      "REASON_REPORTED_KEY"
+    ]
+  },
+  {
+    "parentEntity": "main:REASON_REPORTED_DICT",
+    "childEntity": "main:SERVICE_OUTAGE_RPT_HIST_2",
+    "roleToParent": "REASON_REPORTED_DICT",
+    "roleToChild": "SERVICE_OUTAGE_RPT_HIST_2_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "REASON_REPORTED_KEY"
+    ],
+    "childColumns": [
+      "REASON_REPORTED_KEY"
+    ]
+  },
+  {
+    "parentEntity": "main:REPCAT$_AUDIT_ATTRIBUTE",
+    "childEntity": "main:REPCAT$_AUDIT_COLUMN",
+    "roleToParent": "REPCAT$$_AUDIT_ATTRIBUTE",
+    "roleToChild": "REPCAT$$_AUDIT_COLUMN_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ATTRIBUTE"
+    ],
+    "childColumns": [
+      "ATTRIBUTE"
+    ]
+  },
+  {
+    "parentEntity": "main:REPCAT$_COLUMN_GROUP",
+    "childEntity": "main:REPCAT$_GROUPED_COLUMN",
+    "roleToParent": "REPCAT$$_COLUMN_GROUP",
+    "roleToChild": "REPCAT$$_GROUPED_COLUMN_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "GROUP_NAME",
+      "ONAME",
+      "SNAME"
+    ],
+    "childColumns": [
+      "GROUP_NAME",
+      "ONAME",
+      "SNAME"
+    ]
+  },
+  {
+    "parentEntity": "main:REPCAT$_CONFLICT",
+    "childEntity": "main:REPCAT$_AUDIT_COLUMN",
+    "roleToParent": "REPCAT$$_CONFLICT",
+    "roleToChild": "REPCAT$$_AUDIT_COLUMN_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "CONFLICT_TYPE_ID",
+      "ONAME",
+      "REFERENCE_NAME",
+      "SNAME"
+    ],
+    "childColumns": [
+      "BASE_CONFLICT_TYPE_ID",
+      "BASE_ONAME",
+      "BASE_REFERENCE_NAME",
+      "BASE_SNAME"
+    ]
+  },
+  {
+    "parentEntity": "main:REPCAT$_CONFLICT",
+    "childEntity": "main:REPCAT$_RESOLUTION",
+    "roleToParent": "REPCAT$$_CONFLICT",
+    "roleToChild": "REPCAT$$_RESOLUTION_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "CONFLICT_TYPE_ID",
+      "ONAME",
+      "REFERENCE_NAME",
+      "SNAME"
+    ],
+    "childColumns": [
+      "CONFLICT_TYPE_ID",
+      "ONAME",
+      "REFERENCE_NAME",
+      "SNAME"
+    ]
+  },
+  {
+    "parentEntity": "main:REPCAT$_EXTENSION",
+    "childEntity": "main:REPCAT$_SITES_NEW",
+    "roleToParent": "REPCAT$$_EXTENSION",
+    "roleToChild": "REPCAT$$_SITES_NEW_List",
+    "deleteRule": "Cascade",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "EXTENSION_ID"
+    ],
+    "childColumns": [
+      "EXTENSION_ID"
+    ]
+  },
+  {
+    "parentEntity": "main:REPCAT$_FLAVORS",
+    "childEntity": "main:REPCAT$_FLAVOR_OBJECTS",
+    "roleToParent": "REPCAT$$_FLAVORS",
+    "roleToChild": "REPCAT$$_FLAVOR_OBJECTS_List",
+    "deleteRule": "Cascade",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "FLAVOR_ID",
+      "GNAME",
+      "GOWNER"
+    ],
+    "childColumns": [
+      "FLAVOR_ID",
+      "GNAME",
+      "GOWNER"
+    ]
+  },
+  {
+    "parentEntity": "main:REPCAT$_OBJECT_TYPES",
+    "childEntity": "main:REPCAT$_SITE_OBJECTS",
+    "roleToParent": "REPCAT$$_OBJECT_TYPES",
+    "roleToChild": "REPCAT$$_SITE_OBJECTS_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "OBJECT_TYPE_ID"
+    ],
+    "childColumns": [
+      "OBJECT_TYPE_ID"
+    ]
+  },
+  {
+    "parentEntity": "main:REPCAT$_OBJECT_TYPES",
+    "childEntity": "main:REPCAT$_TEMPLATE_OBJECTS",
+    "roleToParent": "REPCAT$$_OBJECT_TYPES",
+    "roleToChild": "REPCAT$$_TEMPLATE_OBJECTS_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "OBJECT_TYPE_ID"
+    ],
+    "childColumns": [
+      "OBJECT_TYPE"
+    ]
+  },
+  {
+    "parentEntity": "main:REPCAT$_PRIORITY_GROUP",
+    "childEntity": "main:REPCAT$_PRIORITY",
+    "roleToParent": "REPCAT$$_PRIORITY_GROUP",
+    "roleToChild": "REPCAT$$_PRIORITY_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "PRIORITY_GROUP",
+      "SNAME"
+    ],
+    "childColumns": [
+      "PRIORITY_GROUP",
+      "SNAME"
+    ]
+  },
+  {
+    "parentEntity": "main:REPCAT$_REFRESH_TEMPLATES",
+    "childEntity": "main:REPCAT$_INSTANTIATION_DDL",
+    "roleToParent": "REPCAT$$_REFRESH_TEMPLATES",
+    "roleToChild": "REPCAT$$_INSTANTIATION_DDL_List",
+    "deleteRule": "Cascade",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "REFRESH_TEMPLATE_ID"
+    ],
+    "childColumns": [
+      "REFRESH_TEMPLATE_ID"
+    ]
+  },
+  {
+    "parentEntity": "main:REPCAT$_REFRESH_TEMPLATES",
+    "childEntity": "main:REPCAT$_TEMPLATE_OBJECTS",
+    "roleToParent": "REPCAT$$_REFRESH_TEMPLATES",
+    "roleToChild": "REPCAT$$_TEMPLATE_OBJECTS_List",
+    "deleteRule": "Cascade",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "REFRESH_TEMPLATE_ID"
+    ],
+    "childColumns": [
+      "REFRESH_TEMPLATE_ID"
+    ]
+  },
+  {
+    "parentEntity": "main:REPCAT$_REFRESH_TEMPLATES",
+    "childEntity": "main:REPCAT$_TEMPLATE_PARMS",
+    "roleToParent": "REPCAT$$_REFRESH_TEMPLATES",
+    "roleToChild": "REPCAT$$_TEMPLATE_PARMS_List",
+    "deleteRule": "Cascade",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "REFRESH_TEMPLATE_ID"
+    ],
+    "childColumns": [
+      "REFRESH_TEMPLATE_ID"
+    ]
+  },
+  {
+    "parentEntity": "main:REPCAT$_REFRESH_TEMPLATES",
+    "childEntity": "main:REPCAT$_TEMPLATE_REFGROUPS",
+    "roleToParent": "REPCAT$$_REFRESH_TEMPLATES",
+    "roleToChild": "REPCAT$$_TEMPLATE_REFGROUPS_List",
+    "deleteRule": "Cascade",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "REFRESH_TEMPLATE_ID"
+    ],
+    "childColumns": [
+      "REFRESH_TEMPLATE_ID"
+    ]
+  },
+  {
+    "parentEntity": "main:REPCAT$_REFRESH_TEMPLATES",
+    "childEntity": "main:REPCAT$_USER_AUTHORIZATIONS",
+    "roleToParent": "REPCAT$$_REFRESH_TEMPLATES",
+    "roleToChild": "REPCAT$$_USER_AUTHORIZATIONS_List",
+    "deleteRule": "Cascade",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "REFRESH_TEMPLATE_ID"
+    ],
+    "childColumns": [
+      "REFRESH_TEMPLATE_ID"
+    ]
+  },
+  {
+    "parentEntity": "main:REPCAT$_REPCAT",
+    "childEntity": "main:REPCAT$_FLAVORS",
+    "roleToParent": "REPCAT$$_REPCAT",
+    "roleToChild": "REPCAT$$_FLAVORS_List",
+    "deleteRule": "Cascade",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "GOWNER",
+      "SNAME"
+    ],
+    "childColumns": [
+      "GOWNER",
+      "GNAME"
+    ]
+  },
+  {
+    "parentEntity": "main:REPCAT$_REPCAT",
+    "childEntity": "main:REPCAT$_FLAVOR_OBJECTS",
+    "roleToParent": "REPCAT$$_REPCAT",
+    "roleToChild": "REPCAT$$_FLAVOR_OBJECTS_List",
+    "deleteRule": "Cascade",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "GOWNER",
+      "SNAME"
+    ],
+    "childColumns": [
+      "GOWNER",
+      "GNAME"
+    ]
+  },
+  {
+    "parentEntity": "main:REPCAT$_REPCAT",
+    "childEntity": "main:REPCAT$_REPGROUP_PRIVS",
+    "roleToParent": "REPCAT$$_REPCAT",
+    "roleToChild": "REPCAT$$_REPGROUP_PRIVS_List",
+    "deleteRule": "Cascade",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "GOWNER",
+      "SNAME"
+    ],
+    "childColumns": [
+      "GOWNER",
+      "GNAME"
+    ]
+  },
+  {
+    "parentEntity": "main:REPCAT$_REPCAT",
+    "childEntity": "main:REPCAT$_REPOBJECT",
+    "roleToParent": "REPCAT$$_REPCAT",
+    "roleToChild": "REPCAT$$_REPOBJECT_List",
+    "deleteRule": "Cascade",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "GOWNER",
+      "SNAME"
+    ],
+    "childColumns": [
+      "GOWNER",
+      "GNAME"
+    ]
+  },
+  {
+    "parentEntity": "main:REPCAT$_REPCAT",
+    "childEntity": "main:REPCAT$_REPSCHEMA",
+    "roleToParent": "REPCAT$$_REPCAT",
+    "roleToChild": "REPCAT$$_REPSCHEMA_List",
+    "deleteRule": "Cascade",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "GOWNER",
+      "SNAME"
+    ],
+    "childColumns": [
+      "GOWNER",
+      "SNAME"
+    ]
+  },
+  {
+    "parentEntity": "main:REPCAT$_REPCAT",
+    "childEntity": "main:REPCAT$_SITES_NEW",
+    "roleToParent": "REPCAT$$_REPCAT",
+    "roleToChild": "REPCAT$$_SITES_NEW_List",
+    "deleteRule": "Cascade",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "GOWNER",
+      "SNAME"
+    ],
+    "childColumns": [
+      "GOWNER",
+      "GNAME"
+    ]
+  },
+  {
+    "parentEntity": "main:REPCAT$_REPCATLOG",
+    "childEntity": "main:REPCAT$_DDL",
+    "roleToParent": "REPCAT$$_REPCATLOG",
+    "roleToChild": "REPCAT$$_DDL_List",
+    "deleteRule": "Cascade",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ID",
+      "MASTER",
+      "ROLE",
+      "SOURCE"
+    ],
+    "childColumns": [
+      "LOG_ID",
+      "MASTER",
+      "ROLE",
+      "SOURCE"
+    ]
+  },
+  {
+    "parentEntity": "main:REPCAT$_REPOBJECT",
+    "childEntity": "main:REPCAT$_GENERATED",
+    "roleToParent": "REPCAT$$_REPOBJECT",
+    "roleToChild": "REPCAT$$_GENERATED_List",
+    "deleteRule": "Cascade",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ONAME",
+      "SNAME",
+      "TYPE"
+    ],
+    "childColumns": [
+      "BASE_ONAME",
+      "BASE_SNAME",
+      "BASE_TYPE"
+    ]
+  },
+  {
+    "parentEntity": "main:REPCAT$_REPOBJECT",
+    "childEntity": "main:REPCAT$_GENERATED",
+    "roleToParent": "REPCAT$$_REPOBJECT_via_ONAME_SNAME_TYPE",
+    "roleToChild": "REPCAT$$_GENERATED_List_via_ONAME_SNAME_TYPE",
+    "deleteRule": "Cascade",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ONAME",
+      "SNAME",
+      "TYPE"
+    ],
+    "childColumns": [
+      "ONAME",
+      "SNAME",
+      "TYPE"
+    ]
+  },
+  {
+    "parentEntity": "main:REPCAT$_REPOBJECT",
+    "childEntity": "main:REPCAT$_KEY_COLUMNS",
+    "roleToParent": "REPCAT$$_REPOBJECT",
+    "roleToChild": "REPCAT$$_KEY_COLUMNS_List",
+    "deleteRule": "Cascade",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ONAME",
+      "SNAME",
+      "TYPE"
+    ],
+    "childColumns": [
+      "ONAME",
+      "SNAME",
+      "TYPE"
+    ]
+  },
+  {
+    "parentEntity": "main:REPCAT$_REPOBJECT",
+    "childEntity": "main:REPCAT$_REPCOLUMN",
+    "roleToParent": "REPCAT$$_REPOBJECT",
+    "roleToChild": "REPCAT$$_REPCOLUMN_List",
+    "deleteRule": "Cascade",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ONAME",
+      "SNAME",
+      "TYPE"
+    ],
+    "childColumns": [
+      "ONAME",
+      "SNAME",
+      "TYPE"
+    ]
+  },
+  {
+    "parentEntity": "main:REPCAT$_REPOBJECT",
+    "childEntity": "main:REPCAT$_REPPROP",
+    "roleToParent": "REPCAT$$_REPOBJECT",
+    "roleToChild": "REPCAT$$_REPPROP_List",
+    "deleteRule": "Cascade",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ONAME",
+      "SNAME",
+      "TYPE"
+    ],
+    "childColumns": [
+      "ONAME",
+      "SNAME",
+      "TYPE"
+    ]
+  },
+  {
+    "parentEntity": "main:REPCAT$_RESOLUTION",
+    "childEntity": "main:REPCAT$_PARAMETER_COLUMN",
+    "roleToParent": "REPCAT$$_RESOLUTION",
+    "roleToChild": "REPCAT$$_PARAMETER_COLUMN_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "CONFLICT_TYPE_ID",
+      "ONAME",
+      "REFERENCE_NAME",
+      "SEQUENCE_NO",
+      "SNAME"
+    ],
+    "childColumns": [
+      "CONFLICT_TYPE_ID",
+      "ONAME",
+      "REFERENCE_NAME",
+      "SEQUENCE_NO",
+      "SNAME"
+    ]
+  },
+  {
+    "parentEntity": "main:REPCAT$_RESOLUTION_METHOD",
+    "childEntity": "main:REPCAT$_RESOLUTION",
+    "roleToParent": "REPCAT$$_RESOLUTION_METHOD",
+    "roleToChild": "REPCAT$$_RESOLUTION_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "CONFLICT_TYPE_ID",
+      "METHOD_NAME"
+    ],
+    "childColumns": [
+      "CONFLICT_TYPE_ID",
+      "METHOD_NAME"
+    ]
+  },
+  {
+    "parentEntity": "main:REPCAT$_TEMPLATE_OBJECTS",
+    "childEntity": "main:REPCAT$_OBJECT_PARMS",
+    "roleToParent": "REPCAT$$_TEMPLATE_OBJECTS",
+    "roleToChild": "REPCAT$$_OBJECT_PARMS_List",
+    "deleteRule": "Cascade",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "TEMPLATE_OBJECT_ID"
+    ],
+    "childColumns": [
+      "TEMPLATE_OBJECT_ID"
+    ]
+  },
+  {
+    "parentEntity": "main:REPCAT$_TEMPLATE_PARMS",
+    "childEntity": "main:REPCAT$_OBJECT_PARMS",
+    "roleToParent": "REPCAT$$_TEMPLATE_PARMS",
+    "roleToChild": "REPCAT$$_OBJECT_PARMS_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "TEMPLATE_PARAMETER_ID"
+    ],
+    "childColumns": [
+      "TEMPLATE_PARAMETER_ID"
+    ]
+  },
+  {
+    "parentEntity": "main:REPCAT$_TEMPLATE_PARMS",
+    "childEntity": "main:REPCAT$_USER_PARM_VALUES",
+    "roleToParent": "REPCAT$$_TEMPLATE_PARMS",
+    "roleToChild": "REPCAT$$_USER_PARM_VALUES_List",
+    "deleteRule": "Cascade",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "TEMPLATE_PARAMETER_ID"
+    ],
+    "childColumns": [
+      "TEMPLATE_PARAMETER_ID"
+    ]
+  },
+  {
+    "parentEntity": "main:REPCAT$_TEMPLATE_SITES",
+    "childEntity": "main:REPCAT$_SITE_OBJECTS",
+    "roleToParent": "REPCAT$$_TEMPLATE_SITES",
+    "roleToChild": "REPCAT$$_SITE_OBJECTS_List",
+    "deleteRule": "Cascade",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "TEMPLATE_SITE_ID"
+    ],
+    "childColumns": [
+      "TEMPLATE_SITE_ID"
+    ]
+  },
+  {
+    "parentEntity": "main:REPCAT$_TEMPLATE_STATUS",
+    "childEntity": "main:REPCAT$_REFRESH_TEMPLATES",
+    "roleToParent": "REPCAT$$_TEMPLATE_STATUS",
+    "roleToChild": "REPCAT$$_REFRESH_TEMPLATES_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "TEMPLATE_STATUS_ID"
+    ],
+    "childColumns": [
+      "TEMPLATE_STATUS_ID"
+    ]
+  },
+  {
+    "parentEntity": "main:REPCAT$_TEMPLATE_TYPES",
+    "childEntity": "main:REPCAT$_REFRESH_TEMPLATES",
+    "roleToParent": "REPCAT$$_TEMPLATE_TYPES",
+    "roleToChild": "REPCAT$$_REFRESH_TEMPLATES_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "TEMPLATE_TYPE_ID"
+    ],
+    "childColumns": [
+      "TEMPLATE_TYPE_ID"
+    ]
+  },
+  {
+    "parentEntity": "main:REPORT_STATUS_DICT",
+    "childEntity": "main:SERVICE_OUTAGE_RPT",
+    "roleToParent": "REPORT_STATUS_DICT",
+    "roleToChild": "SERVICE_OUTAGE_RPT_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "REPORT_STATUS_CODE"
+    ],
+    "childColumns": [
+      "REPORT_STATUS_CODE"
+    ]
+  },
+  {
+    "parentEntity": "main:REPORT_STATUS_DICT",
+    "childEntity": "main:SERVICE_OUTAGE_RPT_2",
+    "roleToParent": "REPORT_STATUS_DICT",
+    "roleToChild": "SERVICE_OUTAGE_RPT_2_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "REPORT_STATUS_CODE"
+    ],
+    "childColumns": [
+      "REPORT_STATUS_CODE"
+    ]
+  },
+  {
+    "parentEntity": "main:REPORT_STATUS_DICT",
+    "childEntity": "main:SERVICE_OUTAGE_RPT_HIST",
+    "roleToParent": "REPORT_STATUS_DICT",
+    "roleToChild": "SERVICE_OUTAGE_RPT_HIST_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "REPORT_STATUS_CODE"
+    ],
+    "childColumns": [
+      "REPORT_STATUS_CODE"
+    ]
+  },
+  {
+    "parentEntity": "main:REPORT_STATUS_DICT",
+    "childEntity": "main:SERVICE_OUTAGE_RPT_HIST_2",
+    "roleToParent": "REPORT_STATUS_DICT",
+    "roleToChild": "SERVICE_OUTAGE_RPT_HIST_2_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "REPORT_STATUS_CODE"
+    ],
+    "childColumns": [
+      "REPORT_STATUS_CODE"
+    ]
+  },
+  {
+    "parentEntity": "main:SERVICE_OUTAGE_RPT",
+    "childEntity": "main:SERVICE_OUTAGE_RPT_HIST",
+    "roleToParent": "SERVICE_OUTAGE_RPT",
+    "roleToChild": "SERVICE_OUTAGE_RPT_HIST_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "SERVICE_OUTAGE_RPT_KEY"
+    ],
+    "childColumns": [
+      "SERVICE_OUTAGE_KEY"
+    ]
+  },
+  {
+    "parentEntity": "main:SERVICE_OUTAGE_RPT",
+    "childEntity": "main:UTILITY_CONTACT",
+    "roleToParent": "SERVICE_OUTAGE_RPT",
+    "roleToChild": "UTILITY_CONTACT_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "SERVICE_OUTAGE_RPT_KEY"
+    ],
+    "childColumns": [
+      "SERVICE_OUTAGE_RPT_KEY"
+    ]
+  },
+  {
+    "parentEntity": "main:SERVICE_OUTAGE_RPT_2",
+    "childEntity": "main:SERVICE_OUTAGE_RPT_HIST_2",
+    "roleToParent": "SERVICE_OUTAGE_RPT_2",
+    "roleToChild": "SERVICE_OUTAGE_RPT_HIST_2_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "SERVICE_OUTAGE_RPT_KEY"
+    ],
+    "childColumns": [
+      "SERVICE_OUTAGE_RPT_KEY"
+    ]
+  },
+  {
+    "parentEntity": "main:SERVICE_OUTAGE_RPT_HIST",
+    "childEntity": "main:RPT_COMMENT",
+    "roleToParent": "SERVICE_OUTAGE_RPT_HIST",
+    "roleToChild": "RPT_COMMENT_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "SERVICE_OUTAGE_RPT_HIST_KEY"
+    ],
+    "childColumns": [
+      "SERVICE_OUTAGE_RPT_HIST_KEY"
+    ]
+  },
+  {
+    "parentEntity": "main:SERVICE_OUTAGE_RPT_HIST",
+    "childEntity": "main:SERVICE_AFFECTED",
+    "roleToParent": "SERVICE_OUTAGE_RPT_HIST",
+    "roleToChild": "SERVICE_AFFECTED_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "SERVICE_OUTAGE_RPT_HIST_KEY"
+    ],
+    "childColumns": [
+      "SERVICE_OUTAGE_RPT_HIST_KEY"
+    ]
+  },
+  {
+    "parentEntity": "main:SERVICE_OUTAGE_RPT_HIST",
+    "childEntity": "main:SERVICE_OUTAGE_CITY",
+    "roleToParent": "SERVICE_OUTAGE_RPT_HIST",
+    "roleToChild": "SERVICE_OUTAGE_CITY_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "SERVICE_OUTAGE_RPT_HIST_KEY"
+    ],
+    "childColumns": [
+      "SERVICE_OUTAGE_RPT_HIST_KEY"
+    ]
+  },
+  {
+    "parentEntity": "main:SERVICE_OUTAGE_RPT_HIST",
+    "childEntity": "main:SERVICE_OUTAGE_NOTES",
+    "roleToParent": "SERVICE_OUTAGE_RPT_HIST",
+    "roleToChild": "SERVICE_OUTAGE_NOTES_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "SERVICE_OUTAGE_RPT_HIST_KEY"
+    ],
+    "childColumns": [
+      "SERVICE_OUTAGE_RPT_HIST_KEY"
+    ]
+  },
+  {
+    "parentEntity": "main:SERVICE_OUTAGE_RPT_HIST",
+    "childEntity": "main:WIRELINE_AFFECTED",
+    "roleToParent": "SERVICE_OUTAGE_RPT_HIST",
+    "roleToChild": "WIRELINE_AFFECTED_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "SERVICE_OUTAGE_RPT_HIST_KEY"
+    ],
+    "childColumns": [
+      "SERVICE_OUTAGE_RPT_HIST_KEY"
+    ]
+  },
+  {
+    "parentEntity": "main:SERVICE_OUTAGE_RPT_HIST_2",
+    "childEntity": "main:SERVICE_OUTAGE_COUNTY",
+    "roleToParent": "SERVICE_OUTAGE_RPT_HIST_2",
+    "roleToChild": "SERVICE_OUTAGE_COUNTY_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "SERVICE_OUTAGE_RPT_HIST_KEY"
+    ],
+    "childColumns": [
+      "SERVICE_OUTAGE_RPT_HIST_KEY"
+    ]
+  },
+  {
+    "parentEntity": "main:SERVICE_OUTAGE_RPT_HIST_2",
+    "childEntity": "main:SERVICE_OUTAGE_FACILITY_CITY",
+    "roleToParent": "SERVICE_OUTAGE_RPT_HIST_2",
+    "roleToChild": "SERVICE_OUTAGE_FACILITY_CITY_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "SERVICE_OUTAGE_RPT_HIST_KEY"
+    ],
+    "childColumns": [
+      "SERVICE_OUTAGE_RPT_HIST_KEY"
+    ]
+  },
+  {
+    "parentEntity": "main:SERVICE_OUTAGE_RPT_HIST_2",
+    "childEntity": "main:SERVICE_OUTAGE_FACILITY_COUNTY",
+    "roleToParent": "SERVICE_OUTAGE_RPT_HIST_2",
+    "roleToChild": "SERVICE_OUTAGE_FACILITY_COUNTY_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "SERVICE_OUTAGE_RPT_HIST_KEY"
+    ],
+    "childColumns": [
+      "SERVICE_OUTAGE_RPT_HIST_KEY"
+    ]
+  },
+  {
+    "parentEntity": "main:SERVICE_OUTAGE_RPT_HIST_2",
+    "childEntity": "main:SERVICE_OUTAGE_ZIP_CODE",
+    "roleToParent": "SERVICE_OUTAGE_RPT_HIST_2",
+    "roleToChild": "SERVICE_OUTAGE_ZIP_CODE_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "SERVICE_OUTAGE_RPT_HIST_KEY"
+    ],
+    "childColumns": [
+      "SERVICE_OUTAGE_RPT_HIST_KEY"
+    ]
+  },
+  {
+    "parentEntity": "main:SERVICE_TYPE_DICT",
+    "childEntity": "main:SERVICE_AFFECTED",
+    "roleToParent": "SERVICE_TYPE_DICT",
+    "roleToChild": "SERVICE_AFFECTED_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "SERVICE_TYPE_KEY"
+    ],
+    "childColumns": [
+      "SERVICE_TYPE_KEY"
+    ]
+  },
+  {
+    "parentEntity": "main:SUB_OUTAGE_CAUSE_DICT",
+    "childEntity": "main:SERVICE_OUTAGE_RPT_2",
+    "roleToParent": "SUB_OUTAGE_CAUSE_DICT",
+    "roleToChild": "SERVICE_OUTAGE_RPT_2_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "SUB_OUTAGE_CAUSE_KEY"
+    ],
+    "childColumns": [
+      "SUB_DIRECT_CAUSE_KEY"
+    ]
+  },
+  {
+    "parentEntity": "main:SUB_OUTAGE_CAUSE_DICT",
+    "childEntity": "main:SERVICE_OUTAGE_RPT_2",
+    "roleToParent": "SUB_OUTAGE_CAUSE_DICT_via_SUB_ROOT_CAUSE_KEY",
+    "roleToChild": "SERVICE_OUTAGE_RPT_2_List_via_SUB_ROOT_CAUSE_KEY",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "SUB_OUTAGE_CAUSE_KEY"
+    ],
+    "childColumns": [
+      "SUB_ROOT_CAUSE_KEY"
+    ]
+  },
+  {
+    "parentEntity": "main:SUB_OUTAGE_CAUSE_DICT",
+    "childEntity": "main:SERVICE_OUTAGE_RPT_HIST",
+    "roleToParent": "SUB_OUTAGE_CAUSE_DICT",
+    "roleToChild": "SERVICE_OUTAGE_RPT_HIST_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "SUB_OUTAGE_CAUSE_KEY"
+    ],
+    "childColumns": [
+      "SUB_OUTAGE_CAUSE_KEY"
+    ]
+  },
+  {
+    "parentEntity": "main:SUB_OUTAGE_CAUSE_DICT",
+    "childEntity": "main:SERVICE_OUTAGE_RPT_HIST_2",
+    "roleToParent": "SUB_OUTAGE_CAUSE_DICT",
+    "roleToChild": "SERVICE_OUTAGE_RPT_HIST_2_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "SUB_OUTAGE_CAUSE_KEY"
+    ],
+    "childColumns": [
+      "SUB_DIRECT_CAUSE_KEY"
+    ]
+  },
+  {
+    "parentEntity": "main:SUB_OUTAGE_CAUSE_DICT",
+    "childEntity": "main:SERVICE_OUTAGE_RPT_HIST_2",
+    "roleToParent": "SUB_OUTAGE_CAUSE_DICT_via_SUB_ROOT_CAUSE_KEY",
+    "roleToChild": "SERVICE_OUTAGE_RPT_HIST_2_List_via_SUB_ROOT_CAUSE_KEY",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "SUB_OUTAGE_CAUSE_KEY"
+    ],
+    "childColumns": [
+      "SUB_ROOT_CAUSE_KEY"
+    ]
+  },
+  {
+    "parentEntity": "main:TEST_GEN_RANDOM",
+    "childEntity": "main:TEST_GEN_RANDOM_CHILD",
+    "roleToParent": "TEST_GEN_RANDOM",
+    "roleToChild": "TEST_GEN_RANDOM_CHILD_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "PRIMARY_NUM"
+    ],
+    "childColumns": [
+      "PRIMARY_NUM_GEN_RANDOM"
+    ]
+  },
+  {
+    "parentEntity": "main:WIRELINE_DICT",
+    "childEntity": "main:WIRELINE_AFFECTED",
+    "roleToParent": "WIRELINE_DICT",
+    "roleToChild": "WIRELINE_AFFECTED_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "WIRELINE_KEY"
+    ],
+    "childColumns": [
+      "WIRELINE_KEY"
+    ]
+  },
+  {
+    "parentEntity": "main:ZIP_CODE_DICT",
+    "childEntity": "main:SERVICE_OUTAGE_ZIP_CODE",
+    "roleToParent": "ZIP_CODE_DICT",
+    "roleToChild": "SERVICE_OUTAGE_ZIP_CODE_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ZIP_CODE"
+    ],
+    "childColumns": [
+      "ZIP_CODE_KEY"
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "name": "formula_rncsv",
+  "entity": "SERVICE_OUTAGE_RPT_2",
+  "isActive": true,
+  "ruleType": "formula",
+  "attribute": "COMPANY_ID",
+  "codeType": "JavaScript",
+  "isJIT": false,
+  "isAutoTitle": true,
+  "title": "COMPANY_ID = var apiKeyID = req.apiKey.getDataObjects().get(\"ID\");",
+  "comments": null,
+  "topics": [
+    "Data Validation"
+  ]
+}

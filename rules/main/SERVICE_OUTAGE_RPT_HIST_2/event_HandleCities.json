@@ -1,0 +1,19 @@
+{
+  "name": "event_HandleCities",
+  "entity": "SERVICE_OUTAGE_RPT_HIST_2",
+  "isActive": true,
+  "ruleType": "event",
+  "asynchronous": false,
+  "appliesTo": {
+    "insert": true,
+    "update": true,
+    "delete": true
+  },
+  "codeType": "JavaScript",
+  "isAutoTitle": false,
+  "title": "HandleCities",
+  "comments": null,
+  "topics": [
+    "Data Logic"
+  ]
+}

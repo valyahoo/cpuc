@@ -1,0 +1,6 @@
+{
+  "name": "check userinfo",
+  "eventType": "request",
+  "comments": null,
+  "isActive": false
+}

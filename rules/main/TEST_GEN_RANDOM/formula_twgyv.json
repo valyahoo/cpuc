@@ -1,0 +1,15 @@
+{
+  "name": "formula_twgyv",
+  "entity": "TEST_GEN_RANDOM",
+  "isActive": true,
+  "ruleType": "formula",
+  "attribute": "CAN_BENULL",
+  "codeType": "JavaScript",
+  "isJIT": false,
+  "isAutoTitle": true,
+  "title": "CAN_BENULL = if (row.CAN_BENULL === null){",
+  "comments": null,
+  "topics": [
+    "Data Logic"
+  ]
+}
