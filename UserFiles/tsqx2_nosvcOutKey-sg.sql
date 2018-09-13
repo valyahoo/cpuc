@@ -867,6 +867,16 @@ ADD(
     from dual;
     return a;
     end;
+
+CREATE OR REPLACE FUNCTION "TSQX2"."GET_PK"
+
+RETURN number
+AS
+A number;
+BEGIN
+  select round(dbms_random.value(1,1000000)) rnum into A from dual;
+  RETURN A;
+END;
    
 --sample function call    
 select get_pk from dual;
