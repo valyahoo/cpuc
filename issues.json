@@ -5,68 +5,8 @@
     "parameters": "outage,SERVICE_OUTAGE_RPT_2",
     "status": "O",
     "problemType": "Resource defined for non-existent table",
-    "rootObject": "outage",
-    "objectName": null,
-    "resolution": null
-  },
-  {
-    "entity_name": "admin:rules",
-    "description": "Rule eventPreInsert_kxsmi is defined for table main:TEST_GEN_RANDOM_CHILD, which no longer exists in the database.",
-    "parameters": "eventPreInsert_kxsmi,main:TEST_GEN_RANDOM_CHILD",
-    "status": "O",
-    "problemType": "Rule defined for non-existent table",
-    "rootObject": "eventPreInsert_kxsmi",
-    "objectName": null,
-    "resolution": null
-  },
-  {
-    "entity_name": "admin:rules",
-    "description": "Rule eventPreInsert_aacwr is defined for table main:TEST_GEN_RANDOM, which no longer exists in the database.",
-    "parameters": "eventPreInsert_aacwr,main:TEST_GEN_RANDOM",
-    "status": "O",
-    "problemType": "Rule defined for non-existent table",
-    "rootObject": "eventPreInsert_aacwr",
-    "objectName": null,
-    "resolution": null
-  },
-  {
-    "entity_name": "admin:rules",
-    "description": "Rule formula_twgyv is defined for table main:TEST_GEN_RANDOM, which no longer exists in the database.",
-    "parameters": "formula_twgyv,main:TEST_GEN_RANDOM",
-    "status": "O",
-    "problemType": "Rule defined for non-existent table",
-    "rootObject": "formula_twgyv",
-    "objectName": null,
-    "resolution": null
-  },
-  {
-    "entity_name": "admin:rules",
-    "description": "Rule event_HandleCities is defined for table main:SERVICE_OUTAGE_RPT_HIST_2, which no longer exists in the database.",
-    "parameters": "event_HandleCities,main:SERVICE_OUTAGE_RPT_HIST_2",
-    "status": "O",
-    "problemType": "Rule defined for non-existent table",
-    "rootObject": "event_HandleCities",
-    "objectName": null,
-    "resolution": null
-  },
-  {
-    "entity_name": "admin:rules",
-    "description": "Rule event_insertRowToHistory is defined for table main:SERVICE_OUTAGE_RPT_2, which no longer exists in the database.",
-    "parameters": "event_insertRowToHistory,main:SERVICE_OUTAGE_RPT_2",
-    "status": "O",
-    "problemType": "Rule defined for non-existent table",
-    "rootObject": "event_insertRowToHistory",
-    "objectName": null,
-    "resolution": null
-  },
-  {
-    "entity_name": "admin:rules",
-    "description": "Rule validation_jpvbr is defined for table main:SERVICE_OUTAGE_RPT_2, which no longer exists in the database.",
-    "parameters": "validation_jpvbr,main:SERVICE_OUTAGE_RPT_2",
-    "status": "O",
-    "problemType": "Rule defined for non-existent table",
-    "rootObject": "validation_jpvbr",
-    "objectName": null,
+    "rootObject": null,
+    "objectName": "outage",
     "resolution": null
   },
   {
@@ -75,8 +15,68 @@
     "parameters": "formula_rncsv,main:SERVICE_OUTAGE_RPT_2",
     "status": "O",
     "problemType": "Rule defined for non-existent table",
-    "rootObject": "formula_rncsv",
-    "objectName": null,
+    "rootObject": null,
+    "objectName": "formula_rncsv",
+    "resolution": null
+  },
+  {
+    "entity_name": "admin:rules",
+    "description": "Rule validation_jpvbr is defined for table main:SERVICE_OUTAGE_RPT_2, which no longer exists in the database.",
+    "parameters": "validation_jpvbr,main:SERVICE_OUTAGE_RPT_2",
+    "status": "O",
+    "problemType": "Rule defined for non-existent table",
+    "rootObject": null,
+    "objectName": "validation_jpvbr",
+    "resolution": null
+  },
+  {
+    "entity_name": "admin:rules",
+    "description": "Rule event_insertRowToHistory is defined for table main:SERVICE_OUTAGE_RPT_2, which no longer exists in the database.",
+    "parameters": "event_insertRowToHistory,main:SERVICE_OUTAGE_RPT_2",
+    "status": "O",
+    "problemType": "Rule defined for non-existent table",
+    "rootObject": null,
+    "objectName": "event_insertRowToHistory",
+    "resolution": null
+  },
+  {
+    "entity_name": "admin:rules",
+    "description": "Rule event_HandleCities is defined for table main:SERVICE_OUTAGE_RPT_HIST_2, which no longer exists in the database.",
+    "parameters": "event_HandleCities,main:SERVICE_OUTAGE_RPT_HIST_2",
+    "status": "O",
+    "problemType": "Rule defined for non-existent table",
+    "rootObject": null,
+    "objectName": "event_HandleCities",
+    "resolution": null
+  },
+  {
+    "entity_name": "admin:rules",
+    "description": "Rule formula_twgyv is defined for table main:TEST_GEN_RANDOM, which no longer exists in the database.",
+    "parameters": "formula_twgyv,main:TEST_GEN_RANDOM",
+    "status": "O",
+    "problemType": "Rule defined for non-existent table",
+    "rootObject": null,
+    "objectName": "formula_twgyv",
+    "resolution": null
+  },
+  {
+    "entity_name": "admin:rules",
+    "description": "Rule eventPreInsert_aacwr is defined for table main:TEST_GEN_RANDOM, which no longer exists in the database.",
+    "parameters": "eventPreInsert_aacwr,main:TEST_GEN_RANDOM",
+    "status": "O",
+    "problemType": "Rule defined for non-existent table",
+    "rootObject": null,
+    "objectName": "eventPreInsert_aacwr",
+    "resolution": null
+  },
+  {
+    "entity_name": "admin:rules",
+    "description": "Rule eventPreInsert_kxsmi is defined for table main:TEST_GEN_RANDOM_CHILD, which no longer exists in the database.",
+    "parameters": "eventPreInsert_kxsmi,main:TEST_GEN_RANDOM_CHILD",
+    "status": "O",
+    "problemType": "Rule defined for non-existent table",
+    "rootObject": null,
+    "objectName": "eventPreInsert_kxsmi",
     "resolution": null
   }
 ]
